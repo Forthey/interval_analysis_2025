@@ -8,6 +8,9 @@ class Interval:
 
     def mid(self):
         return (self.a + self.b) / 2
+    
+    def rad(self):
+        return (self.b - self.a) / 2
 
     # Интервальное сложение
     def __add__(self, other):
